@@ -1,0 +1,30 @@
+Part 1: Class Setup
+
+1. Read the entire syllabus 
+	- DONE
+
+2. Plan a 2-3 hour block of time per week that you will use to work on the Advanced labs 
+	- The Thursday labs sound like a good time block.  I can drop by if I need help, or I can work at home if I'm feeling confident that I can do it on my own.
+
+3. Think about times that you will use to work on labs, assignments, programming practice, projects, and other class materials each week 
+	- Generally will do coding work on Thursday/Friday because those are the days I don't have classes.
+
+4. Also think about when you will work on reading, projects and other class materials 
+	- Reading (for all my classes) will generally be MTW mornings, as those are open for me.
+
+5. Make sure you understand the requirements for the in-class and online portions of labs 
+	- DONE
+
+6. Make sure you have the textbooks - you need the HTML+CSS, JavaScript+JQuery asap. 
+	- DONE
+
+7. Email me if you have any questions on anything to do with the class, now, or at any time during the class  
+	- Understood!  :-)
+
+Part 2:  Reading: 
+
+Read Chapter 1-6 and Chapter 8 from HTML+CSS (don't worry - short chapters!) 
+	- I have read through Chapter 14 of the HTML+CSS book.
+
+To submit: upload a message to the dropbox confirming that you have done all of the above.
+	- That's what this is!  :-)

@@ -1,0 +1,80 @@
+/* Author: A.M. Duddda*/
+* {
+    /* make defualt font style sans-serif */
+    font-family: sans-serif;
+}
+
+body {
+    background-color:  #DBF1A1;
+}
+
+.jumbotron {
+    background-color: #DBF1A1;
+    color:blueviolet;
+    text-align: center;
+}
+
+h1, h2, strong, dt {
+    color: blueviolet;
+    font-family:"Times New Roman",serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/* Not getting desired behavior with drop caps, so I'm faking it by changing the size of the first letter of the headings. */
+h1:first-letter,h2:first-letter {
+    font-size: 150%
+}
+
+dt {
+    font-size: 20px;
+}
+
+.content {
+    width: 94%;
+    margin: auto;
+}
+
+.row {
+    background-color: #FFFBAA;
+}
+
+/* a class to give book titles a consistent look and feel */
+.booktitle {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* and customize the appearance of weblinks. */
+a:link {
+    text-decoration: none;
+    color: #f1783a;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #f1783a;
+}
+
+figure {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #DBF1A1;
+    color:blueviolet;
+    text-align: center;
+}

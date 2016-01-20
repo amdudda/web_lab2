@@ -1,0 +1,142 @@
+<!DOCTYPE html >
+<!-- Author: A.M. Dudda -->
+<!-- All images downloaded from Wikimedia Commons -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Adapted from lab week 2 -->
+    <!-- Set page width equal to browser window width -->
+    <meta name="viewport" content="width=device-width intial-scale=1"/>
+    <!-- download bootstrap file -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <! -- also the CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="dudda-favorites.css" \>
+
+    <title>
+        Some of my favorite things!
+    </title>
+</head>
+<body>
+<div class="jumbotron">
+    <h1>A few of my favorite things...<span class="glyphicon glyphicon-gift"></span></h1>
+    <h2>(Playing with bootstrap layouts!)</h2>
+</div>
+<!-- end Jumbotron -->
+
+<div class="content">
+    <!-- first row -->
+    <div class="row">
+        <div id="movies" class="col-sm-4">
+            <h2>Movies <span class="glyphicon glyphicon-film"></span></h2>
+            <dl>
+                <dt>Tampopo</dt>
+                <dd>One of my favorite movies is <a href="http://www.imdb.com/title/tt0092048/">Tampopo</a>.
+                    It's often described as a "ramen western". It's a silly comedy that riffs off of the tropes of
+                    Cowboy
+                    Westerns,
+                    while also poking fun at Japanese culture. I watch it when I need a silly laugh.
+                </dd>
+                <dt>Lilo and Stitch</dt>
+                <dd>A lovely <a href="http://www.imdb.com/title/tt0275847/">children's movie</a> about an orphaned girl
+                    and an
+                    evil alien who learn the power of chosen family.
+                </dd>
+            </dl>
+        </div>
+
+        <div id="music" class="col-sm-4">
+            <h2>Music <span class="glyphicon glyphicon-music"></span></h2>
+            <P>
+                My favorite musician is <strong>Tanita Tikaram</strong> (<a href="http://www.tanita-tikaram.com/">website</a>).
+                She was a one-hit wonder back in the late 1980s, but has continued to produce albums at widely spaced
+                intervals since then. It's hard to pick a favorite song, but two that I really love are "Wonderful
+                Shadow" and "World Outside Your Window".
+            </P>
+            <p>
+                I also have delusions of being a musician. I used to play the cello, and I've taken up the tenor
+                recorder. The picture below is one from Wikipedia, and it looks very annoying to play because it doesn't
+                have an extension lever for low C. I would not enjoy having to stretch my little finger all the way down
+                to reach that note! Mine only has a single lever for C, so I have no good way to play low C-sharp.
+            </p>
+            <img class="img-circle img-responsive" src="tenor-recorder.jpg"/>
+        </div>
+        <div id="food" class="col-sm-4">
+            <h2>Food <span class="glyphicon glyphicon-cutlery"></span></h2>
+            <p>Some of my favorite foods:
+                <figure>
+                    <img class="img-sm img-rounded img-responsive" src="200px-SushiMaki.jpg"
+                         alt="Salmon Nigiri and two pieces of Maki"/>
+                    <figcaption><strong>Sushi</strong> - my favorites involve unagi (freshwater eel).
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="img-sm img-rounded img-responsive" src="800px-Kkakdugi,_radish_kimchi,_by_comicpie_in_Toronto.jpg"
+                         img="Kkakdugi, a spicy salad made from cubed radish"/>
+                    <figcaption>
+                        <strong>Kkakdugi</strong> - a Korean dish similar to Kimchi, but made with radish.
+                    </figcaption>
+                </figure>
+                <figure><img class="img-sm img-rounded img-responsive"
+                             src="Klosterstuebel_St._Marienstern_-_Rinderroulade_mit_Rotkohl.jpg"
+                             alt="Rouladen on a plate with red cabbage and sauce."/>
+                    <figcaption>
+                        <strong>Rouladen</strong> - basically a meat roll. My mother makes these with an onion and cornichon center.
+                    </figcaption>
+                </figure>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <!-- Second row -->
+    <div class="row">
+        <div id="books" class="col-sm-4">
+            <h2>Books <span class="glyphicon glyphicon-book"></span></h2>
+            <p>I am a big fan of science fiction stories. Here's a few books I really enjoy.</p>
+            <ul>
+                <li><span class="booktitle">Cyteen</span> by C.J. Cherryh. It offers deep insight into the psychology of
+                    emotional manipulation.
+                </li>
+                <li>The <span class="booktitle">Foreigner</span> series by C.J. Cherryh - a human diplomat navigates
+                    contradictory
+                    political demands while living amongst aliens whose supreme judicial arm is the Assassins' Guild.
+                </li>
+                <li>The <span class="booktitle">Xenogenesis</span> trilogy by Octavia Butler. Just go read her stuff;
+                    it's
+                    really deep
+                    and looks hard at power, privilege, and oppression.
+                </li>
+                <li><span class="booktitle">Little Sister</span> by Kara Dalkey. This one is a short read, and fantasy
+                    rather than
+                    SF, but still a favorite.
+                </li>
+                <li>For a fun romp, I recommend anything by Seanan McGuire. I suggest starting with <span
+                        class="booktitle">Rosemary and Rue</span>,
+                    which is basically "changeling kicks elvin ass in San Francisco". For a sampler of her style, she
+                    has
+                    some
+                    lovely short stories available for download at <a href="http://seananmcguire.com/">her website</a>.
+                    Seanan
+                    also writes horror novels under the pseudonym Mira Grant.
+                </li>
+            </ul>
+        </div>
+        <div id="coursework" class="col-sm-4">
+            <h2>Lab 2 <span class="glyphicon glyphicon-education"></span></h2>
+            <p>I also did these two other pages for my Web Programming course:</p>
+            <ul>
+                <li>A simple bootstrap page about the <a href="dudda_bootstrap.html">Musicology Institute program</a> I wrote for my Java course in December of 2015.</li>
+                <li>A <a href="dudda_simplyme.html">Simply Me</a> sample page based on a W3Schools exercise.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+<!-- Footer info -->
+<footer>
+    &copy; January 2016 by A.M. Dudda
+</footer>
+</html>
+<!-- Recorder image credit: https://commons.wikimedia.org/wiki/File:13-Renaissance-consort-tenor-recorder-by-Bob-Marvin-photo-by-Oscar-Romero.jpg-->

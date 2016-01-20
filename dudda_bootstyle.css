@@ -1,0 +1,29 @@
+* {
+    font-family: sans-serif;
+}
+
+.jumbotron {
+    background-color: darkslateblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+.callout {
+    ont-size: 80%;
+    border: 2px solid darkslateblue;
+    padding-top:10px;
+}
+
+code {
+    color: darkslateblue;
+    background-color: peachpuff;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: darkslateblue;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+}
+

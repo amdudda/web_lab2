@@ -1,0 +1,56 @@
+body {
+    font-family:Oswald sans-serif;
+    line-height:1.8;
+    /* the page shouldn't really use these, but let's specify some fallback defaults */
+    background-color: #FFF8A4;
+    color: #1D053A;
+}
+
+.bg-1 {
+    background-color: #FFF8A4;
+    color: #1D053A;
+}
+
+.bg-2 {
+    background-color: #D4B96A;
+    color: #090A3B;
+}
+
+.bg-3 {
+    background-color: #FFE9AA;
+    color: #090A3B;
+}
+
+.bg-4 {
+    background-color: #FFF8A4;
+    color: #1D053A;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-small {
+    width:100%;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+    border:0;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+.col-sm-4 {
+    margin-bottom:10px;
+}
+
+.margin {margin-bottom: 45px;}
+
