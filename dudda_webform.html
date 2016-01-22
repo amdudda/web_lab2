@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="dudda_webform.css" type="text/css"/>
+    <title>Conference Registration Form</title>
+</head>
+<body>
+<div class="headline">
+    <h1>Minority Languages Council</h1>
+    <h2>Signed Languages:</h2>
+    <h3>Deafhood and Access to Language as a Human Right</h3>
+</div>
+<form name="regform" action="#" method="post">
+<fieldset>
+    <legend>Conference Registration Form</legend>
+        <div>
+            <label for="username" class="textlabel">User name:</label>
+            <input id="username" type="text" name="username" maxlength="70" required="true"/>
+        </div>
+        <div>
+            <label for="password" class="textlabel">Password:</label>
+            <input id="password" type="password" name="password" required="true"/>
+        </div>
+        <div>
+            <label for="email" class="textlabel">Email address:</label>
+            <input id="email" type="email" name="email" required="true"/>
+        </div>
+        <div>
+            <!-- t-shirt size selection goes here -->
+            <label for="shirt_size" class="textlabel">T-shirt size:</label>
+            <select id="shirt_size" name="shirt_size">
+                <option value="XS">extra small</option>
+                <option value="S">small</option>
+                <option value="M">medium</option>
+                <option value="L">large</option>
+                <option value="XL">extra large</option>
+            </select>
+        </div>
+        <div>
+            <label for="dob" class="textlabel">Date of birth:</label>
+            <input id="dob" type="date" name="dob" required="true"/>
+        </div>
+        <div>
+            Would you like to receive email from our sponsors?<br />
+            <span class="textlabel">&nbsp;</span>
+            <input id="email_yes" type="radio" name="email_signup" class="toggle" value="yes" required="true" \> <label
+                    for="email_yes" >Yes</label>
+            <input id="email_no" type="radio" name="email_signup" class="toggle" value="no" checked="true" required="true" \> <label
+                    for="email_no">No</label>
+        </div>
+        <div>
+            Select which session(s) you will be attending:<br />
+            <span class="textlabel">&nbsp;</span>
+            <input type="checkbox" id="morning" name="session" class="toggle" value="morning" unchecked="true"/> <label for="morning">Morning</label>
+            <input type="checkbox" id="evening" name="session" class="toggle" value="afternoon" unchecked="true"/> <label
+                    for="evening">Evening</label>
+        </div>
+
+    <!-- end demographic info-->
+    <div>
+        <label for="spec_req">Please note any special requests you may have.
+        (This includes disability accommodation requests.)</label><br />
+        <textarea id="spec_req" name="special_requests"></textarea>
+    </div>
+    <div>
+        <button type="submit" name="submit">Register!</button>
+    </div>
+</fieldset>
+</form>
+</body>
+</html>

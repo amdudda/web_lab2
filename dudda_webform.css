@@ -1,0 +1,81 @@
+body {
+    /* fallback single color in case gradient doesn't work */
+    background-color: #FFFC50;
+    /* stolen from the book, becuase apparently every browser has implementation of gradients */
+    background-image: -moz-linear-gradient(#FFFC50,#FFB21B);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFC50), to(#FFB21B));
+    background-image: -webkit-linear-gradient(#FFFC50,#FFB21B);
+    background-image: -o-linear-gradient(#FFFC50,#FFB21B);
+}
+
+fieldset {
+    padding-top: 20px;
+    /* adding this padding creates the illusion that the form's contents are centered.*/
+    padding-left: 50px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+div {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.headline {
+    /* placed here to override default settings for div */
+    color: #00352E;
+    text-align: center;
+    border: 1px solid #00352E;
+    border-radius: 5px;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+h2,h3 {
+    font-style: italic;
+    line-height: 0;
+}
+
+input, textarea, select, textarea {
+    width: 175px;
+    /* change border width so we don't get weird movement when we change border for focus */
+    border: 1px dotted lightgray;
+}
+
+.toggle {
+    /* change settings for togglable inputs */
+    width: auto;
+}
+
+textarea {
+    /* customize this so it looks like a free-standing field */
+    width: 300px;
+    height: 100px;
+    /* I'm tempted to use bootstrap just to get the fieldset border to expand/shrink when the textarea is resized. */
+}
+
+button {
+    /* block plus margin lets me auto-center the button*/
+    display: block;
+    margin: 0px auto;
+    /* let's pretty it up a little */
+    color: #FFFC50;
+    font-weight: bold;
+    background-color: #00352E;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.textlabel {
+    float: left;
+    width: 120px;
+    text-align: right;
+}
+
+input:focus,textarea:focus, button:focus, select:focus {
+    /* highlight inputs when they receive the focus */
+    border: 1px solid deepskyblue;
+}
